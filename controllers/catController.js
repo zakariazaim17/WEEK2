@@ -17,7 +17,7 @@ const cat_get = (req, res) => {
 const cat_create_post = (req, res) => {
   console.log(req.body);
   console.log(req.file);
-  res.send('From this endpoint you can get cats.');
+  res.send('From this endpoint you can post cats.');
 };
 
 module.exports = {
