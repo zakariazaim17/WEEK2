@@ -14,7 +14,14 @@ const cat_get = (req, res) => {
   res.json(specific_cat);
 };
 
+const cat_create_post = (req, res) => {
+  console.log(req.body);
+  console.log(req.file);
+  res.send('From this endpoint you can get cats.');
+};
+
 module.exports = {
   cat_list_get,
   cat_get,
+  cat_create_post,
 };
