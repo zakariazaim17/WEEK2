@@ -20,6 +20,10 @@ const cat_create_post = (req, res) => {
   res.send('From this endpoint you can post cats.');
 };
 
+const something = () => {
+  console.log('yes');
+};
+
 module.exports = {
   cat_list_get,
   cat_get,
